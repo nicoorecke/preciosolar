@@ -3,20 +3,42 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background-color: black;
+  color: #00a7fa;
   font-family: 'Open Sans', sans-serif;
 }
 
 .Header-main {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 20% 80%;
   align-items: center;
 }
 
+.Header-nav {
+  width: 100%;
+  
+}
+
+
+
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color: #fa0000;
+}
+.Introduction {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Introduction .text,
+.Introduction .image {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Introduction img {
+  width: 40%;
 }
 
 .Main {
@@ -96,6 +118,19 @@ body {
 .Characters-item a {
   text-decoration: none;
   color: #026C86;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navbar ul  li{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
 }
 
 @keyframes fade {
