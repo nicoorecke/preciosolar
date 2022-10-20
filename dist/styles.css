@@ -19,6 +19,13 @@ body {
   
 }
 
+.image {
+  transition: all .6s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.5);
+}
 
 
 .Header a {
