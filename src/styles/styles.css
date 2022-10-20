@@ -70,7 +70,7 @@ body {
 
 .Datos {
   display: grid;
-  grid-template-columns: 20% 40% 40%;
+  grid-template-columns: 30% 35% 35%;
   align-items: center;
 }
 
