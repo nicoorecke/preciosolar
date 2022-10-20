@@ -4,7 +4,7 @@ import Character from '../pages/Character';
 import Modulos from '../pages/Modulos';
 import Error404 from '../pages/Error404';
 import getHash from '../utils/getHash';
-import resolveRoutes from '../utils/resolveRoutes';
+
 
 const routes = {
   '/': Home,
@@ -21,9 +21,10 @@ const router = async () => {
 
   header.innerHTML = await Header();
   console.log('Esdoy principio del router')
-  let hash = getHash();
-  let route = await resolveRoutes(hash);
-  console.log(hash, 'hash')
+  //let hash = getHash();
+  //let route = await resolveRoutes(hash);
+  let route = getHash();
+  //console.log(hash, 'hash')
   console.log(route, 'route')
   let render = routes[route] ? routes[route] : Error404;
   content.innerHTML = await render();

@@ -1,5 +1,5 @@
 const getHash = () =>
-  location.href.substring(location.href.lastIndexOf('/') + 1) || '/';
-  console.log(location, 'gethash');
+  location.hash || '/';
+  console.log(location.hash.substring(1), 'getHash');
 
 export default getHash;
