@@ -20,7 +20,7 @@ body {
 
 
 .Header-nav {
-  width: 70%;
+  width: 100%;
 }
 
 .potencia {
@@ -55,7 +55,7 @@ body {
 }
 .Introduction {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 70%;
 }
 
 .Introduction .text,
