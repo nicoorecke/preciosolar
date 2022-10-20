@@ -11,112 +11,112 @@ const Modulos= async () => {
     <section class="Introduction">
         
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ps/ps260.webp" alt=""> 
         </div>
         <div class="Datos">
             <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
-            <p>$69.237</p>
-            <p>310W</p>
+            <p class="precio">$69.237</p>
+            <p class="potencia">310W</p>
         </div>
     
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ps/ps310.png" alt=""> 
         </div>
 
         <div class="Datos">
             <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
-            <p>$76.851</p>
-            <p>340W</p>
+            <p class="precio">$76.851</p>
+            <p class="potencia">340W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ps/ps310.png" alt=""> 
         </div>
 
         <div class="Datos">
             <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
-            <p>$81.455</p>
-            <p>360W</p>
+            <p class="precio">$81.455</p>
+            <p class="potencia">360W</p>
         </div>
         
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/trinasolar/tsm-370de08m-ii.webp" alt=""> 
         </div>
 
         <div class="Datos">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trina_Solar_logo.svg/2560px-Trina_Solar_logo.svg.png" alt=""> 
-            <p>$80.570</p>
-            <p>375W</p>
+            <p class="precio">$80.570</p>
+            <p class="potencia">375W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/trinasolar/tsm-370de08m-ii.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trina_Solar_logo.svg/2560px-Trina_Solar_logo.svg.png" alt="">
-            <p>$104.652</p>
-            <p>450W</p>
+            <p class="precio">$104.652</p>
+            <p class="potencia">450W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/trinasolar/tsm-495de18m-ii.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trina_Solar_logo.svg/2560px-Trina_Solar_logo.svg.png" alt="">
-            <p>$130.859</p>
-            <p>550W</p>
+            <p class="precio">$130.859</p>
+            <p class="potencia">550W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ams/as-6p30-285w.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://www.weamerisolar.eu/wp-content/uploads/2019/04/amerisolar-logo-1500p.png" alt=""> 
-            <p>$64.279</p>
-            <p>285W</p>
+            <p class="precio">$64.279</p>
+            <p class="potencia">285W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ams/as-6p30-285w.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://www.weamerisolar.eu/wp-content/uploads/2019/04/amerisolar-logo-1500p.png" alt=""> 
-            <p>$77.914</p>
-            <p>345W</p>
+            <p class="precio">$77.914</p>
+            <p class="potencia">345W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/ams/as-6m144-hc-450w.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://www.weamerisolar.eu/wp-content/uploads/2019/04/amerisolar-logo-1500p.png" alt="">
-            <p>$112.089</p>
-            <p>450W</p>
+            <p class="precio">$112.089</p>
+            <p class="potencia">450W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/restarsolar/rt7i-460m.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://www.resunsolar.com/wp-content/uploads/2021/06/restar-solar.png" alt=""> 
-            <p>$99.694</p>
-            <p>460W</p>
+            <p class="precio">$99.694</p>
+            <p class="potencia">460W</p>
         </div>
 
         <div class="image">
-            <img src="https://enertik.ar/images/schema/enertik.png" alt=""> 
+            <img src="https://enertik.ar/images/productos/restarsolar/rt7i-460m.webp" alt=""> 
         </div>
     
         <div class="Datos">
             <img src="https://www.resunsolar.com/wp-content/uploads/2021/06/restar-solar.png" alt="">
-            <p>$125.193</p>
-            <p>460W</p>
+            <p class="precio">$125.193</p>
+            <p class="potencia">460W</p>
         </div>
         
     </section>
