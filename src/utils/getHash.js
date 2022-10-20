@@ -1,4 +1,5 @@
 const getHash = () =>
-  location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/';
+  location.href.substring(location.href.lastIndexOf('/') + 1) || '/';
+  console.log(location, 'gethash');
 
 export default getHash;

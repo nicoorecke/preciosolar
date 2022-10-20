@@ -1,9 +1,9 @@
 import getData from "../utils/getData";
-import getData2 from "../utils/getData2";
+
 
 const Home = async () => {
     const characters = await getData();
-    const dataa = await getData2();
+    
     const view = `
     <h2> About me</h2>
         <section class="Introduction">
@@ -79,7 +79,7 @@ const Home = async () => {
       </div>
 
       <div class="Characters">
-        ${dataa}
+        
 
         
       </div>
