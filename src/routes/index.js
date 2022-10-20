@@ -9,8 +9,8 @@ import getHash from '../utils/getHash';
 const routes = {
   '/': Home,
   '/:id': Character,
-  '/#modulos': Modulos,
-  '/#estructuras': Modulos,
+  '#modulos': Modulos,
+  '#estructuras': Modulos,
 };
 
 const router = async () => {
