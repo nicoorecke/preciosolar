@@ -5,7 +5,7 @@ const Home = async () => {
     const characters = await getData();
     
     const view = `
-    <h2> About me</h2>
+    <h2> Sobre el proyecto</h2>
         <section class="Introduction">
             
           
@@ -65,6 +65,7 @@ const Home = async () => {
                 <p>After Effects</p>
             </div>
             </section>
+    
       <div class="Characters">
         ${characters.results.map(character => `
         <article class="Character-item">

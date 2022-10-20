@@ -4,7 +4,7 @@ const Header = () => {
         <div class="Header-logo">
             <h1>
                 <a href="/">
-                    Nico  Recke
+                    Precio Solares
                 </a>
             </h1>
         </div>
@@ -12,12 +12,10 @@ const Header = () => {
         <div class="Header-nav">
             <nav class="navbar">
                 <ul>
-                    <li><a href="/#energy">Energy</a></li>
-                    <li><a href="/energy">Machine Learning</a></li>
-                    <li><a href="/Products">Products</a></li>
-                    <li><a href="/crypto">Crypto</a></li>
-                    <li><a href="/youtube">Youtube Channel</a></li>
-                    <li><a href="/">Top 10 Netflix!</a></li>
+                    <li><a href="/#modulos">Módulos</a></li>
+                    <li><a href="/#estructuras">Estructuras</a></li>
+                    <li><a href="/#cables">Cables</a></li>
+                    <li><a href="/#conectores">Conectores</a></li>
                 </ul>
             </nav>
         </div>
