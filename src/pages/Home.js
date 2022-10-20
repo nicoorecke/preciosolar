@@ -8,7 +8,7 @@ const Home = async () => {
     <h2> Sobre el proyecto</h2>
         <section class="Introduction">
             
-          
+            
             <div class="image">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="">
             </div>
