@@ -21,7 +21,15 @@ body {
 
 .Header-nav {
   width: 70%;
+}
+
+.image-top {
+  text-align: center;
   
+}
+
+.imagen {
+  height: 300px;
 }
 
 .image {
@@ -29,7 +37,7 @@ body {
 }
 
 .image:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 
@@ -37,7 +45,10 @@ body {
   text-decoration: none;
   color: #fa0000;
 }
-
+.Introduction {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
 .Introduction .text,
 .Introduction .image {
@@ -48,6 +59,17 @@ body {
 
 .Introduction img {
   width: 40%;
+}
+
+.Datos {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  align-items: center;
+}
+
+.Datos p {
+  text-align: center;
+  
 }
 
 .Main {

@@ -6,7 +6,7 @@ const Home = async () => {
     
     const view = `
     <h2> Sobre el proyecto</h2>
-        <section class="Introduction">
+        <section class="Introduction-home">
             
             
             <div class="image">

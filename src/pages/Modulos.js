@@ -5,27 +5,21 @@ const Modulos= async () => {
   
     const view = `
     <h2> Modulos</h2>
+    <div class="image-top">
+            <img class="imagen" src="https://enertik.ar/images/schema/enertik.png" alt="">
+        </div>
     <section class="Introduction">
         
-        
-        <div class="image">
-          <img src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/75/17009375/logo-2021092311324434800.png" alt="">
-        </div>
-        <div class="text">
-            <h3>Solarline</h3>
-        </div>
-
         <div class="image">
             <img src="https://enertik.ar/images/schema/enertik.png" alt="">
         </div>
-        <div class="text">
-            <h3>enertik</h3>
+        <div class="Datos">
+            <p>enertik</p>
+            <p>$69.237</p>
+            <p>310W</p>
         </div>
-        <div class="image">
-            <img src="http://www.intermepro.com/wp-content/uploads/2016/04/logo_transparente_400.png" alt="">
-        </div>
-        <div class="text">
-            <h3>intermepro</h3>
+        
+    </section>
         
         
     `;
