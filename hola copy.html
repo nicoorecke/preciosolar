@@ -1,11 +1,4 @@
-import getData from "../utils/getData";
-
-
-const Home = async () => {
-    const characters = await getData();
-    
-    const view = `
-    <h2> Sobre el proyecto</h2>
+<h2> Sobre el proyecto</h2>
         <section class="Introduction">
             
             
@@ -14,8 +7,3 @@ const Home = async () => {
             </div>
             
         </section>
-    `;
-    return view;
-  };
-  
-  export default Home;

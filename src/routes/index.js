@@ -7,9 +7,8 @@ import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
 
 const routes = {
-  '/': Home,
+  '/preciosolar': Home,
   '/:id': Character,
-  'contact': 'Contact',
   '/#modulos': Modulos,
   '/#estructuras': Modulos,
 };
@@ -19,9 +18,9 @@ const router = async () => {
   const content = null || document.getElementById('content');
 
   header.innerHTML = await Header();
-  console.log('sdoy principio del router')
+  console.log('Esdoy principio del router')
   let hash = getHash();
-  let route = await resolveRoutes(hash);
+  let route = '/preciosolar/' + await resolveRoutes(hash);
   console.log(hash, 'hash')
   console.log(route, 'route')
   let render = routes[route] ? routes[route] : Error404;

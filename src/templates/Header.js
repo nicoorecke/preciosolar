@@ -3,7 +3,7 @@ const Header = () => {
     <div class="Header-main">
         <div class="Header-logo">
             <h1>
-                <a href="/">
+                <a href="/preciosolar">
                     Precio Solares
                 </a>
             </h1>
@@ -12,10 +12,10 @@ const Header = () => {
         <div class="Header-nav">
             <nav class="navbar">
                 <ul>
-                    <li><a href="/#modulos">Módulos</a></li>
-                    <li><a href="/#estructuras">Estructuras</a></li>
-                    <li><a href="/#cables">Cables</a></li>
-                    <li><a href="/#conectores">Conectores</a></li>
+                    <li><a href="/preciosolar/#modulos">Módulos</a></li>
+                    <li><a href="/preciosolar/#estructuras">Estructuras</a></li>
+                    <li><a href="/preciosolar/#cables">Cables</a></li>
+                    <li><a href="/preciosolar/#conectores">Conectores</a></li>
                 </ul>
             </nav>
         </div>
