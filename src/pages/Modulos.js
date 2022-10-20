@@ -147,7 +147,7 @@ const Modulos= async () => {
     <div class="Datos">
         <img src="https://www.resunsolar.com/wp-content/uploads/2021/06/restar-solar.png" alt="">
         <p class="precio">$125.193</p>
-        <p class="potencia">460W</p>
+        <p class="potencia">560W</p>
     </div>
     
 </section>
