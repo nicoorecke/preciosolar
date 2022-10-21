@@ -56,6 +56,16 @@ body {
   text-align: center;
 }
 
+.Proveedores {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-items: center;
+}
+
+.Proveedores div {
+  text-align: center;
+}
+
 .Header-nav li:hover{
   background-color: rgb(56, 56, 56);
   transition: all .5s ease-in-out;
@@ -103,6 +113,10 @@ body {
 }
 .imagen {
   height: 200px;
+}
+
+.imagen-prov {
+  width: 90%;
 }
 
 .image {
