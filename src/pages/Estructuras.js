@@ -74,6 +74,12 @@ const Estructuras= async () => {
     </div>
     
 </section>
+
+<div class="link-bajo">
+    <a href="https://enertik.ar/soportes-paneles-solares">
+        Soportes en Enertik
+    </a>
+</div>
         
         
     `;
