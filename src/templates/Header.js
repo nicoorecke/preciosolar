@@ -2,11 +2,12 @@ const Header = () => {
     const view = `
     <div class="Header-main">
         <div class="Header-logo">
-            <h1>
+            
                 <a href="/preciosolar/">
-                    Precio Solares
+                    <img class="logazo" src="Precios_Solares.png" alt=""> 
+                    
                 </a>
-            </h1>
+            
         </div>
 
         <div class="Header-nav">
