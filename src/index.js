@@ -1,6 +1,4 @@
-import router from "./routes";
-
-
+import router from "./routes"; 
 
 window.addEventListener('load', router);
 window.addEventListener('popstate', router);

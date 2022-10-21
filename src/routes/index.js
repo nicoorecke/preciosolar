@@ -3,6 +3,8 @@ import Home from '../pages/Home';
 import Character from '../pages/Character';
 import Modulos from '../pages/Modulos';
 import Estructuras from '../pages/Estructuras';
+import Cables from '../pages/Cables';
+import Conectores from '../pages/Conectores';
 import Error404 from '../pages/Error404';
 import getHash from '../utils/getHash';
 
@@ -12,6 +14,8 @@ const routes = {
   '/:id': Character,
   '#modulos': Modulos,
   '#estructuras': Estructuras,
+  '#cables': Cables,
+  '#conectores': Conectores,
 };
 
 const router = async () => {

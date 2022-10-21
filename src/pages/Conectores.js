@@ -1,6 +1,6 @@
 import getHash from "../utils/getHash";
 
-const Estructuras= async () => {
+const Conectores = async () => {
   const id = getHash();
   
     const view = `
@@ -44,7 +44,7 @@ const Estructuras= async () => {
 
     <div class="Datos">
         <img src="https://ishraqenergy.com/wp-content/uploads/2018/06/ishraq-energy-solar-partners-chiko-solar-colored.png" alt=""> 
-        <p class="precio">$63.225</p>
+        <p class="precio">$63.225/p>
         <p class="potencia">1600W</p>
     </div>
     
@@ -86,4 +86,4 @@ const Estructuras= async () => {
     return view;
   };
   
-  export default Estructuras;
+  export default Conectores;
