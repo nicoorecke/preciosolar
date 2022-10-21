@@ -35,6 +35,17 @@ body {
   text-align: center;
 }
 
+.image-top img{
+  height: 100px;
+}
+
+.link-bajo {
+  text-align: center;
+}
+
+.link-bajo a {
+  color: #00a7fa;
+}
 .imagen {
   height: 200px;
 }
