@@ -4,7 +4,7 @@ const Header = () => {
         <div class="Header-logo">
             
                 <a href="/preciosolar/">
-                    <img class="logazo" src="Precios_Solares.png" alt=""> 
+                    <img class="logazo" src="https://i.ibb.co/NVRrLnQ/Precios-Solares.png" alt=""> 
                     
                 </a>
             
