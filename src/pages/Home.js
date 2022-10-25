@@ -2,9 +2,12 @@ import getData from "../utils/getData";
 
 
 const Home = async () => {
-    const characters = await getData();
+  const id='https://enertik.ar'
+  console.log(id)
+  const character = await getData(id);
     
-    const view = `
+    
+  const view = `
     <h2> Sobre el proyecto</h2>
         <section class="Introduction-home">
             

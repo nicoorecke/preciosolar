@@ -1,14 +1,19 @@
-const API = 'https://rickandmortyapi.com/api/character/';
+import axios from 'axios';
 
-const getData = async (id) => {
-  const apiURl = id ? `${API}${id}` : API;
+const BASE_URL = 'https://google.com';
+
+const getData = async () => {
   try {
-    const response = await fetch(apiURl);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.log('Fetch Error', error);
-  };
+    const response = await axios.get(`${BASE_URL}/todos?_limit=5`);
+
+    const todoItems = response.data;
+
+    console.log(`GET: Here's the list of todos`, todoItems);
+
+    return todoItems;
+  } catch (errors) {
+    console.error(errors);
+  }
 };
 
 export default getData;
