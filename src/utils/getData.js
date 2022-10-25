@@ -1,16 +1,24 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://google.com';
+const enertik = ['paneles-solares','cables-fotovoltaicos','accesorios-y-protecciones']
 
-const getData = async () => {
+const BASE_URL = 'https://api.scraperapi.com?api_key=60ae15c4e20edcc002f97d648fc6e399&url=https://enertik.ar/'
+
+const getData = async (id) => {
   try {
-    const response = await axios.get(`${BASE_URL}/todos?_limit=5`);
+    var parser = new DOMParser();
+    const response = await axios.get(`${BASE_URL}`+ `${enertik[id]}`);
+    const datos = response.data;
+    var doc = parser.parseFromString(datos, 'text/html');
+    if (id==0){
+      console.log(doc.querySelector('#productGridPage ul'))
+    }
+    
 
-    const todoItems = response.data;
 
-    console.log(`GET: Here's the list of todos`, todoItems);
+    
 
-    return todoItems;
+    return doc;
   } catch (errors) {
     console.error(errors);
   }

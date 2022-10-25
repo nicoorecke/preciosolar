@@ -2,9 +2,9 @@ import getData from "../utils/getData";
 
 
 const Home = async () => {
-  const id='https://enertik.ar'
+  const id='0'
   console.log(id)
-  const character = await getData(id);
+  const character = await getData(0);
     
     
   const view = `
