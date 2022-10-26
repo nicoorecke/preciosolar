@@ -22,19 +22,8 @@ const getData = async (id) => {
         return {'precio' : element.innerText, 'potencia' : powerArr[i].innerText}
       })
 
-      let priceList = pricesArr.map(function(element){
-        return element.innerText;
-      })
-
-      let powerList = powerArr.map(function(element){
-        return element.innerText;
-      }
-
-      )
       console.log(listapiola);
     
-      console.log(priceList);
-    console.log(powerList);
     return listapiola
     } else{
       return 'eerrrorrr'
