@@ -4,11 +4,13 @@ import getData from "../utils/getData";
 const Home = async () => {
   const id='0'
   console.log(id)
-  const character = await getData(0);
+  
+  
     
     
   const view = `
     <h2> Sobre el proyecto</h2>
+    
         <section class="Introduction-home">
             
             

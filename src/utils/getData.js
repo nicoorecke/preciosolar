@@ -11,14 +11,40 @@ const getData = async (id) => {
     const datos = response.data;
     var doc = parser.parseFromString(datos, 'text/html');
     if (id==0){
-      console.log(doc.querySelector('#productGridPage ul'))
+      
+      let powerArr = Array.from(doc.querySelector('#productGridPage ul').querySelectorAll('.backLI p:first-of-type'))
+      //console.log(powerArr)
+      let pricesArr = Array.from(doc.querySelector('#productGridPage ul').querySelectorAll('.priceMenu'))
+      //console.log(pricesArr)
+
+      let listapiola = pricesArr.map(function(element, i){
+        console.log(i)
+        return {'precio' : element.innerText, 'potencia' : powerArr[i].innerText}
+      })
+
+      let priceList = pricesArr.map(function(element){
+        return element.innerText;
+      })
+
+      let powerList = powerArr.map(function(element){
+        return element.innerText;
+      }
+
+      )
+      console.log(listapiola);
+    
+      console.log(priceList);
+    console.log(powerList);
+    return listapiola
+    } else{
+      return 'eerrrorrr'
     }
     
 
 
     
 
-    return doc;
+    
   } catch (errors) {
     console.error(errors);
   }

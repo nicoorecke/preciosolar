@@ -1,10 +1,19 @@
 import getHash from "../utils/getHash";
+import getData from "../utils/getData";
 
 const Modulos= async () => {
   const id = getHash();
-  
+  const character = await getData(0);
+  const superr =  character.map(function(element){
+    console.log(element, 'kaka')
+    return `<p>${element.precio}</p>
+            <div>${element.potencia}</div>`;
+  })
+
+
     const view = `
     <h2> Módulos</h2>
+    <div>${superr} </div>
 <div class="image-top">
         <img class="imagen" src="https://enertik.ar/images/schema/enertik.png" alt="">
     </div>
